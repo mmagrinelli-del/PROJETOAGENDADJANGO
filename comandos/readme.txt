@@ -8,8 +8,10 @@ Configurar o git
 
 git config --global user.name 'Seu nome'
 git config --global user.email 'seu_email@gmail.com'
-git add .# Configure o .gitignore
+git add .
+# Configure o .gitignore
 git init
 git add .
 git commit -m 'Mensagem'
-git remote add origin URL_DO_GIT
+git remote add origin git@github.com:mmagrinelli-del/PROJETOAGENDADJANGO.git
+ URL_DO_GIT
